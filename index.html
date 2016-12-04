@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html ng-app="portfolio">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="app/css/style.css">
+
+    <!-- Fontawesome -->
+    <script src="https://use.fontawesome.com/816f35cb53.js"></script>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header>
+            <div class="row">
+                <div class="col-md-offset-1 col-md-4">
+                    <h1 class="name">Russell Fisher</h1>
+                </div>
+                <div class="col-md-offset-1 col-md-1 links">
+                    <a href="/">Home</a>
+                </div>
+                <div class="col-md-1 links projects">
+                    <a href="/#/projects">Projects</a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div ui-view>
+            </div>
+        </main>
+        <footer>
+
+        </footer>
+    </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.js" charset="utf-8"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js" charset="utf-8"></script>
+    <script src="/app/app.js" charset="utf-8"></script>
+    <script src="/app/controllers/Home.controller.js" charset="utf-8"></script>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+header{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 2em;
+}
+
+.name {
+  font-family: 'Raleway', sans-serif;
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.links {
+  padding-top: 1em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 2.4em;
+}
+
+a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+  color: rgb(17, 41, 62);
+}
+
+p {
+  font-family: 'PT Sans', sans-serif;
+}
+
+span {
+  font-size: 2em;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 40vw;
+  }
+
+.home-content {
+  padding-top: 8em;
+}
+
+#selfBlurb {
+  font-size: 1.8em;
+  padding-top: 2.3em;
+}
+
+.project-images {
+  width: 20vw;
+  /*border-radius: 50%;*/
+}
+
+.projectInfo {
+  font-size: 1.5em;
+}
+
+.newEntry {
+  padding-top: 5em;
+}
