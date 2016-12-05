@@ -1,6 +1,6 @@
 angular
     .module('recipeApp')
-    .controller('HomeController', HomeController);
+    .controller('AboutController', AboutController);
 
 function HomeController($scope, $state) {
 

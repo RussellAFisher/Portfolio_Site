@@ -7,36 +7,50 @@
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="app/css/navbar-fixed-side.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="app/css/style.css">
 
     <!-- Fontawesome -->
     <script src="https://use.fontawesome.com/816f35cb53.js"></script>
-
 </head>
 
 <body>
     <div class="container-fluid">
-        <header>
-            <div class="row">
-                <div class="col-md-offset-1 col-md-4">
-                    <h1 class="name">Russell Fisher</h1>
-                </div>
-                <div class="col-md-offset-1 col-md-1 links">
-                    <a href="/">Home</a>
-                </div>
-                <div class="col-md-1 links projects">
-                    <a href="/#/projects">Projects</a>
-                </div>
+        <div class="row">
+            <div class="col-md-3">
+                <header>
+                    <div class="navbar navbar-default navbar-fixed-left">
+                      <br>
+                      <br>
+                      <br>
+                        <a class="name" href="#">Russell Fisher</a>
+                        <br>
+                        <ul class="nav navbar-nav links">
+                            <li><a href="/#/about">About</a></li>
+                            <li><a href="/#/projects">Projects</a></li>
+                            <!-- <li><a href="/#/iot">IoT</a></li> -->
+                            <li><a href="/app/images/Russell_Fisher_Resume.pdf">Resume</a></li>
+                        </ul>
+                    </div>
+                </header>
             </div>
-        </header>
-        <main>
-            <div ui-view>
+            <div class="col-md-9">
+                <main>
+                    <div ui-view>
+                    </div>
+                </main>
             </div>
-        </main>
-        <footer>
 
-        </footer>
+            <footer>
+                <div class="row">
+                    <div class="col-md-offset-1 col-md-2">
+
+                    </div>
+
+                </div>
+            </footer>
+        </div>
     </div>
     <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.js" charset="utf-8"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js" charset="utf-8"></script>

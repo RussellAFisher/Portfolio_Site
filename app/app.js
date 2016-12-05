@@ -3,18 +3,13 @@ angular
     .config(config);
 
 function config($stateProvider, $urlRouterProvider) {
-    $urlRouterProvider.otherwise('/');
+    $urlRouterProvider.otherwise('/about');
 
     $stateProvider
-        .state('home', {
-            url: '/',
-            controller: 'HomeController',
-            templateUrl: 'app/views/home.html'
-        })
-        .state('resume', {
-            url: '/resume',
-            controller: 'ResumeController',
-            templateUrl: 'app/views/resume.html'
+        .state('about', {
+            url: '/about',
+            controller: 'AboutController',
+            templateUrl: 'app/views/about.html'
         })
         .state('projects', {
             url: '/projects',
