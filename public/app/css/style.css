@@ -76,7 +76,7 @@ span {
 
 #selfBlurb {
   font-size: 1.8em;
-  padding-top: 2.3em;
+  padding-top: 1em;
 }
 
 .project-images {
@@ -90,4 +90,8 @@ span {
 
 .newEntry {
   padding-top: 5em;
+}
+
+.projectTitle {
+  font-family: 'Raleway', sans-serif;
 }
