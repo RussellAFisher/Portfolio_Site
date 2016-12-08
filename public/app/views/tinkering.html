@@ -1,0 +1,32 @@
+<div class="row">
+  <h2 class="projectTitle">Tinkering</h2>
+</div>
+<div class="row">
+  <p class="projectInfo">Below is a list of projects that I have created (mostly tech related). I will continue to add to the list as I keep creating.</p>
+</div>
+<div ng-repeat="project in tinkerProjects">
+  <div class="row">
+    <div class="col-md-6">
+      <span><h2 class="projectTitle">{{project.title}}</h2><h4>({{project.category}})</h4></span>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-3">
+      <img src="{{project.image}}" class="project-images" alt="">
+    </div>
+    <div class="col-md-6 col-md-offset-1">
+      <p class="projectInfo">{{project.description}}</p>
+      <br>
+      <div class="row">
+        <div class="col-md-offset-2 col-md-3">
+          <a href="{{project.githubLink}}"><i class="fa fa-github fa-2x" aria-hidden="true"></i> Github</a>
+        </div>
+        <!-- <div class="col-md-3">
+          <a href="#"><i class="fa fa-hand-spock-o fa-2x" aria-hidden="true"></i>More Info</a>
+        </div> -->
+      </div>
+    </div>
+
+  </div>
+  <br>
+</div>

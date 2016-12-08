@@ -16,9 +16,9 @@ function config($stateProvider, $urlRouterProvider) {
             controller: 'ProjectsController',
             templateUrl: 'app/views/projects.html'
         })
-        .state('IoT', {
-            url: '/iot',
-            controller: 'IoTController',
-            templateUrl: 'app/views/iot.html'
+        .state('Tinkering', {
+            url: '/tinkering',
+            controller: 'TinkeringController',
+            templateUrl: 'app/views/tinkering.html'
         });
 }
