@@ -1,13 +1,12 @@
 <div class="row">
-  <h2 class="projectTitle">Tinkering</h2>
-</div>
-<div class="row">
-  <p class="projectInfo">Below is a list of projects that I have created (mostly tech related). I will continue to add to the list as I keep creating.</p>
+  <p class="projectInfo tinkerHeading">
+In addition to the full stack native and web applications I've made, I also have an assortment of side projects. I made these in the interest of fun, learning, and creating solutions to small problems that crop up in my daily life.
+  </p>
 </div>
 <div ng-repeat="project in tinkerProjects">
   <div class="row">
     <div class="col-md-6">
-      <span><h2 class="projectTitle">{{project.title}}</h2><h4>({{project.category}})</h4></span>
+      <span><h2 class="projectTitle">{{project.title}}</h2><h4>{{project.category}}</h4></span>
     </div>
   </div>
   <div class="row">

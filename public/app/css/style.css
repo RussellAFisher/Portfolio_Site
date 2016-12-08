@@ -95,3 +95,15 @@ span {
 .projectTitle {
   font-family: 'Raleway', sans-serif;
 }
+
+.tinkerHeading {
+  padding-top: 1.5em;
+}
+
+.contactInfo {
+  font-size: 2rem;
+}
+
+.githubLink {
+  padding-top: 15em;
+}
