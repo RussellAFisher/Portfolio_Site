@@ -112,3 +112,8 @@ span {
   width: 20vw;
   padding-top: 3em;
 }
+
+.photographyLarge {
+  height: 100vh;
+  padding-top: 4em;
+}
