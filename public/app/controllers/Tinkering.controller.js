@@ -27,5 +27,4 @@ function TinkeringController($scope, $state) {
         description: 'This project was created with a Raspberry Pi 2 as a means of tracing fire alarm system issues for older systems without built in memory. When a trouble light turns on, the system records a short video of the fire alarm panel with a time stamp and saves it to an external flash drive. If the state changes back to normal, another video is captured with a timestamp for comparison.',
         githubLink: 'https://github.com/RussellAFisher/Raspberry-Pi-Camera-Project'
     }];
-    $scope.test = "Test";
 }

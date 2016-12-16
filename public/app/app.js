@@ -20,5 +20,10 @@ function config($stateProvider, $urlRouterProvider) {
             url: '/tinkering',
             controller: 'TinkeringController',
             templateUrl: 'app/views/tinkering.html'
+        })
+        .state('Photography', {
+            url: '/photography',
+            controller: 'PhotographyController',
+            templateUrl: 'app/views/photography.html'
         });
 }
