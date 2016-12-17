@@ -1,5 +1,10 @@
-<div class="row photographyGrid" ng-repeat="photos in photography track by $index" ng-if="$index % 3 == 0">
+<!-- <div class="row photographyGrid" ng-repeat="photos in photography track by $index" ng-if="$index % 3 == 0">
   <div class="col-md-4" ng-repeat="i in [$index, $index + 1, $index + 2]" ng-if="photography[i].image != null">
     <a ui-sref="photographyDetails({photoID: photography[i].id})"><img class="photography" src="{{photography[i].image}}" alt=""></a>
   </div>
+</div> -->
+<div class="scrollImages">
+    <div class="" ng-repeat="photos in photography">
+      <img src="{{photos.image}}" alt="" class="photography">
+    </div>
 </div>

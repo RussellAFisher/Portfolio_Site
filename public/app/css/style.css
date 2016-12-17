@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
 
 body {
-  padding-bottom: 50px;
-  width: 100vw;
+  padding-bottom: 30px;
+  width: 100%;
 }
 
 header {
@@ -109,11 +109,28 @@ span {
 }
 
 .photography {
-  width: 20vw;
-  padding-top: 3em;
+  height: 90vh;
+  padding-top: 1em;
 }
 
 .photographyLarge {
   height: 100vh;
   padding-top: 4em;
+}
+
+div.scrollImages {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollImages div {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.mainBody {
+  margin-left: -3em;
 }
